@@ -1,0 +1,92 @@
+/* nav */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top:55px ;
+    background-color: white;
+}
+.name{
+    
+
+
+margin-left: 50px;
+    
+}
+.btn1-div{
+    padding-right: 160px;
+    padding-bottom:35px ;
+}
+.btn1{
+      padding-right: 100px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 24px 17px 24px;
+
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+}
+
+.btn2{     
+ 
+padding: 17px 24px 17px 24px;
+
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: aliceblue;
+
+}
+
+
+
+
+/* banner */
+
+
+
+.header1{
+    background-image: url("./images/Group.png"),url("./images/Hero-bg.png") ; 
+    background-size: cover cover; 
+    background-position:  50% 40%, center; 
+    background-repeat: no-repeat, repeat;
+    height: 700px;
+    width: 1900px;
+}
+
+.banner-text{
+
+    padding-top: 298px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+}
+.bannar-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+
+}
+.banner-description{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+
