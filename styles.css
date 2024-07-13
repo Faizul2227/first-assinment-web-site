@@ -23,6 +23,7 @@ margin-left: 50px;
     padding-right: 160px;
     padding-bottom:35px ;
 }
+/* buttons */
 .btn1{
       padding-right: 100px;
     display: flex;
@@ -46,6 +47,16 @@ background: rgb(13, 19, 33);
 color: aliceblue;
 
 }
+.btn3{
+    padding: 5px 10px 5px 10px;
+
+/* border-radius: 8px; */
+background: rgb(152, 161, 182);
+color: aliceblue;
+border: 0;
+
+
+}
 
 
 
@@ -59,8 +70,11 @@ color: aliceblue;
     background-size: cover cover; 
     background-position:  50% 40%, center; 
     background-repeat: no-repeat, repeat;
-    height: 700px;
-    width: 1900px;
+
+    padding-bottom: 20px;
+   
+    /* height: 700px;
+    width: 1900px; */
 }
 
 .banner-text{
@@ -73,10 +87,11 @@ align-items: center;
 
 }
 .bannar-title{
-    color: rgb(13, 19, 33);
+    color: rgb(28, 39, 66);
 font-family: Azeret Mono;
 font-size: 48px;
 font-weight: 800;
+text-align: center;
 
 }
 .banner-description{
@@ -88,5 +103,238 @@ font-size: 16px;
 font-weight: 400;
 text-align: center;
 }
+/* main */
+.main1{
+    
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 252, 248);
+    /* border: 80px 80px; */
+   margin: 97px 90px 90px 90px;
+}
 
 
+.main2{
+    text-align: center;
+}
+.main-title{
+    color: rgb(21, 29, 49);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.main-discription{
+    color: rgb(35, 54, 99);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 40px;
+}
+/* box 1 */
+.main-box-1{
+    background-color: rgb(249, 249, 255);
+    display: flex;
+    margin: 50px 50px 50px 50px;
+    
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+}
+.texes-1{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.box-discription{
+    
+
+}
+.box-title-1{
+    padding-bottom: 40px;
+
+}
+.box-discription{
+    padding-bottom: 40px;
+}
+/* video section */
+
+.video-section{
+    text-align: center;
+    margin: 140px;
+    
+    
+}
+.vido-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.video-dis{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 70px;
+}
+.video-1{
+   
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+/* My Current Target */
+.all-curren-tatget{
+    margin: 144px;
+}
+.my-target{
+    text-align: center;
+    
+}
+.My-Target-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+padding-bottom: 20px;
+
+}
+.My-Target-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 40px ;
+
+}
+.dibbas{
+    display: flex;
+    
+    
+    
+    
+}
+.dibba-pic{
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+padding: 10px;
+
+}
+.dibba-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+padding: 10px;
+
+}
+.dibba-text{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+
+
+}
+.dibba-learn{
+  
+}
+
+.dibba{
+    border-radius: 16px;
+    background: rgba(176, 66, 39, 0.14);
+    margin: 20px;
+    
+
+}
+.dibba2{
+    border-radius: 16px;
+    background: rgba(122, 212, 235, 0.161);
+    margin: 20px;
+    
+
+}
+.dibba3{
+    border-radius: 16px;
+    background: rgba(252, 255, 58, 0.193);
+    margin: 20px;
+    
+
+}
+/* .outro{
+    background-image: url("./images/handshake.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+
+/* footer */
+ 
+footer{
+    background-image: url("./images/handshake.jpg");
+    background-size: cover ; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0 180px 0 180px;
+    margin-bottom: 100px;
+
+  
+
+    
+}
+.footer-section{
+    text-align: center;
+}
+
+.footer-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+padding-top: 100px;
+padding-bottom: 20px;
+
+
+}
+.footer-text{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 40px;
+
+
+    
+}
+.footer-btn{
+    padding-bottom: 200px;
+    
+}
+.footer-text-box{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.btn4{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+/* last */
+.last{
+    background-color: rgba(103, 103, 103, 0.12);
+    display: flex;
+    justify-content: space-between;
+}
+.last-icon{
+    padding: 80px;
+}
+.last-title{
+    padding: 80px;
+}
